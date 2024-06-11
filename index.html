@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lope's</title>
+    <link rel="stylesheet" href="asets/css/style.css">
+    <link rel="shortcut icon" href="asets/imagens/hamburguer.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="container forms">
+
+        <!-- <div class="image-frame">
+            <div class="blur"></div>
+            <img src="asets/imagens/hb f.jpg" alt="Imagem de fundo">
+        </div> -->
+
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" id="email" class="input">
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <br>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" id="senha" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                        <span class="error-message" id="senha-error"></span>
+                    </div>
+
+                    <br>
+                    <div class="form-link">
+                        <a href="#" id="forgot-pass" class="forgot-pass">Esqueci a senha</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button id="login-btn">Login</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-link">
+                <span>Você ainda não tem conta? <a href="#" class="link signup-link">Cadastre-se</a></span>
+            </div>
+        </div>
+
+        <!-- Cadastro -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Cadastre-se</header>
+
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" id="signup-email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" id="signup-senha" class="password">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirme a senha" id="signup-confirmar-senha"
+                            class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button id="signup-btn">Finalizar</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-link">
+                <span>Voltar ao login <a href="#" class="link login-link">Login</a></span>
+            </div>
+        </div>
+
+        <!-- Recuperar Senha -->
+
+        <div class="form recover">
+            <div class="form-content">
+                <header>Recuperar Senha</header>
+                <form id="recover-form">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" id="email-recover" class="input">
+                        <span class="error-message" id="recover-email-error"></span>
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Nova Senha" id="password-recover" class="input">
+                        <span class="error-message" id="recover-password-error"></span>
+
+                    </div>
+                    <div class="field button-field">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="form-link">
+                <span>Voltar ao <a href="#" class="link login-link">Login</a></span>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="asets/js/aplicacoes.js"></script>
+</body>
+
+</html>
